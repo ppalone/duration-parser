@@ -14,9 +14,9 @@ YouTube video duration format is `DD:HH:MM:SS` (For example `01:10:45:01`)
 
 ```
 DD: Days
-HH: Hours (must be less than 23)
-MM: Minutes (must be less than 59)
-SS: Seconds (must be less than 59)
+HH: Hours (must be less than or equal to 23)
+MM: Minutes (must be less than or equal to 59)
+SS: Seconds (must be less than or equal to 59)
 ```
 
 ## Usage
